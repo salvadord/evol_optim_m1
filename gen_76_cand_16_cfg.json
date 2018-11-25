@@ -1,0 +1,354 @@
+{
+    "simConfig": {
+        "AMPATau2Factor": 1.0, 
+        "EEGain": 0.8956443888248601, 
+        "EIGain": 1.0, 
+        "EPVGain": 1.0, 
+        "ESOMGain": 1.0, 
+        "IClamp1": {
+            "amp": 0.5, 
+            "dur": 1000, 
+            "loc": 0.5, 
+            "pop": "IT5B", 
+            "sec": "soma", 
+            "start": 0
+        }, 
+        "IEGain": 1.0, 
+        "IEdisynapticBias": null, 
+        "IEweights": [
+            0.8064580546986596, 
+            1.1702396397004668, 
+            0.8065992959700871
+        ], 
+        "IFullGain": 1.0, 
+        "IIGain": 1.1873302939562698, 
+        "IIweights": [
+            1.2, 
+            1.0, 
+            1.0
+        ], 
+        "IPTGain": 1.0, 
+        "ITinterFactor": 1.0, 
+        "L5BrecurrentFactor": 1.0, 
+        "NetStim1": {
+            "delay": 0, 
+            "interval": 16.666666666666668, 
+            "loc": 0.5, 
+            "noise": 0.0, 
+            "number": 60.0, 
+            "pop": "IT2", 
+            "sec": "soma", 
+            "start": 500, 
+            "synMech": [
+                "AMPA"
+            ], 
+            "synMechWeightFactor": [
+                1.0
+            ], 
+            "weight": 30.0, 
+            "ynorm": [
+                0, 
+                1
+            ]
+        }, 
+        "PVEGain": 1.0, 
+        "PVPVGain": null, 
+        "PVSOMGain": null, 
+        "SOMEGain": 1.0, 
+        "SOMPVGain": null, 
+        "SOMSOMGain": null, 
+        "addConn": 1, 
+        "addIClamp": 0, 
+        "addLongConn": 1, 
+        "addNetStim": 0, 
+        "addPulses": 1, 
+        "addSubConn": 1, 
+        "addSynMechs": true, 
+        "analysis": {
+            "plotRaster": {
+                "dpi": 100, 
+                "figSize": [
+                    12, 
+                    10
+                ], 
+                "include": [
+                    "IT2", 
+                    "PV2", 
+                    "SOM2", 
+                    "IT4", 
+                    "IT5A", 
+                    "PV5A", 
+                    "SOM5A", 
+                    "IT5B", 
+                    "PT5B", 
+                    "PV5B", 
+                    "SOM5B", 
+                    "IT6", 
+                    "CT6", 
+                    "PV6", 
+                    "SOM6"
+                ], 
+                "labels": "overlay", 
+                "lw": 0.3, 
+                "marker": ".", 
+                "markerSize": 3, 
+                "orderBy": [
+                    "pop", 
+                    "y"
+                ], 
+                "orderInverse": true, 
+                "popColors": {
+                    "CT6": [
+                        0.08984375, 
+                        0.6328125, 
+                        0.2578125
+                    ], 
+                    "IT2": [
+                        0.984375, 
+                        0.44140625, 
+                        0.49609375
+                    ], 
+                    "IT4": [
+                        0.984375, 
+                        0.24609375, 
+                        0.30078125
+                    ], 
+                    "IT5A": [
+                        0.984375, 
+                        0.05078125, 
+                        0.10546875
+                    ], 
+                    "IT5B": [
+                        0.7890625, 
+                        0.05078125, 
+                        0.10546875
+                    ], 
+                    "IT6": [
+                        0.59375, 
+                        0.05078125, 
+                        0.10546875
+                    ], 
+                    "PT5B": [
+                        0.04296875, 
+                        0.140625, 
+                        0.98046875
+                    ], 
+                    "PT5B_1": [
+                        0.04296875, 
+                        0.140625, 
+                        0.98046875
+                    ], 
+                    "PT5B_ZD": [
+                        0.04296875, 
+                        0.140625, 
+                        0.98046875
+                    ], 
+                    "PV2": [
+                        0.96484375, 
+                        0.859375, 
+                        0.43359375
+                    ], 
+                    "PV5A": [
+                        0.953125, 
+                        0.8125, 
+                        0.24609375
+                    ], 
+                    "PV5B": [
+                        0.94140625, 
+                        0.765625, 
+                        0.05859375
+                    ], 
+                    "PV6": [
+                        0.828125, 
+                        0.671875, 
+                        0.05078125
+                    ], 
+                    "SOM2": [
+                        0.96875, 
+                        0.765625, 
+                        0.44140625
+                    ], 
+                    "SOM5A": [
+                        0.95703125, 
+                        0.6875, 
+                        0.25390625
+                    ], 
+                    "SOM5B": [
+                        0.94921875, 
+                        0.609375, 
+                        0.0703125
+                    ], 
+                    "SOM6": [
+                        0.8359375, 
+                        0.53515625, 
+                        0.0625
+                    ]
+                }, 
+                "popRates": true, 
+                "saveFig": true, 
+                "showFig": false, 
+                "timeRange": [
+                    500, 
+                    1500
+                ]
+            }
+        }, 
+        "axonNa": 7, 
+        "axonRa": 0.005, 
+        "backupCfgFile": null, 
+        "cache_efficient": true, 
+        "cellmod": {
+            "CT6": "HH_reduced", 
+            "IT2": "HH_reduced", 
+            "IT4": "HH_reduced", 
+            "IT5A": "HH_full", 
+            "IT5B": "HH_reduced", 
+            "IT6": "HH_reduced", 
+            "PT5B": "HH_full"
+        }, 
+        "cellsrec": -1, 
+        "checkErrors": false, 
+        "checkErrorsVerbose": false, 
+        "compactConnFormat": 0, 
+        "connRandomSecFromList": false, 
+        "correctBorderThreshold": 50.0, 
+        "createNEURONObj": 1, 
+        "createPyStruct": 1, 
+        "cvode_active": false, 
+        "cvode_atol": 1e-06, 
+        "delayLong": 5.0, 
+        "dendNa": 0.3, 
+        "dt": 0.05, 
+        "duration": 1500.0, 
+        "enableRxD": false, 
+        "epas": 0.9, 
+        "filename": "model_output", 
+        "gatherOnlySimData": false, 
+        "gpas": 0.5, 
+        "hParams": {
+            "celsius": 34, 
+            "v_init": -80
+        }, 
+        "ihGbar": 0.23408277886365217, 
+        "ihGbarBasal": 1.0, 
+        "ihGbarZD": null, 
+        "ihModel": "migliore", 
+        "ihSlope": 28, 
+        "ihlkc": 0.2, 
+        "ihlkcBasal": 1.0, 
+        "ihlkcBelowSoma": 0.01, 
+        "ihlke": -86, 
+        "includeParamsLabel": false, 
+        "noiseLong": 1.0, 
+        "numCellsLong": 1000, 
+        "printPopAvgRates": true, 
+        "printRunTime": 0.1, 
+        "printSynsAfterRule": false, 
+        "pulse": {
+            "end": 1200, 
+            "noise": 0.8, 
+            "pop": "None", 
+            "rate": 20, 
+            "start": 1000
+        }, 
+        "pulse2": {
+            "duration": null, 
+            "end": 1200, 
+            "noise": 0.5, 
+            "pop": "None", 
+            "rate": 20, 
+            "start": 1000
+        }, 
+        "rand123GlobalIndex": null, 
+        "ratesLong": {
+            "M2": [
+                0, 
+                3.7327962199843903
+            ], 
+            "OC": [
+                0, 
+                4.317494526933791
+            ], 
+            "S1": [
+                0, 
+                4.946127761123256
+            ], 
+            "S2": [
+                0, 
+                3.2982626497144083
+            ], 
+            "TPO": [
+                0, 
+                4.731477723294419
+            ], 
+            "TVL": [
+                0, 
+                3.7299166631936074
+            ], 
+            "cM1": [
+                0, 
+                2.5
+            ]
+        }, 
+        "recordCells": [], 
+        "recordLFP": [], 
+        "recordStep": 0.1, 
+        "recordStim": false, 
+        "recordTime": false, 
+        "recordTraces": {}, 
+        "removeNa": false, 
+        "saveCSV": false, 
+        "saveCellConns": 0, 
+        "saveCellSecs": false, 
+        "saveDat": false, 
+        "saveDataInclude": [
+            "simData"
+        ], 
+        "saveDpk": false, 
+        "saveFolder": "../data/v53_batch24/gen_76", 
+        "saveHDF5": false, 
+        "saveJson": true, 
+        "saveLFPCells": false, 
+        "saveMat": false, 
+        "savePickle": false, 
+        "saveTiming": false, 
+        "scale": 1.0, 
+        "seeds": {
+            "conn": 4321, 
+            "loc": 4321, 
+            "stim": 1234
+        }, 
+        "simLabel": "gen_76_cand_16", 
+        "singleCellPops": 0, 
+        "sizeX": 150.0, 
+        "sizeY": 1350.0, 
+        "sizeZ": 150.0, 
+        "somaNa": 5, 
+        "startLong": 0, 
+        "strengthFactor": 1.0, 
+        "synWeightFractionEE": [
+            0.5, 
+            0.5
+        ], 
+        "synWeightFractionEI": [
+            0.5, 
+            0.5
+        ], 
+        "synWeightFractionSOME": [
+            0.9, 
+            0.1
+        ], 
+        "synsperconn": {
+            "HH_full": 5, 
+            "HH_reduced": 1, 
+            "HH_simple": 1
+        }, 
+        "timestampFilename": false, 
+        "timing": true, 
+        "tstop": 1000.0, 
+        "verbose": 0, 
+        "weightLong": 0.5, 
+        "weightNorm": 1, 
+        "weightNormThreshold": 4.0
+    }
+}
