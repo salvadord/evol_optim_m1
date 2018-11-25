@@ -1,0 +1,266 @@
+{
+    "batch": {
+        "batchLabel": "v53_batch24", 
+        "cfgFile": "cfg.py", 
+        "evolCfg": {
+            "crossover": 0.5, 
+            "defaultFitness": 1000, 
+            "evolAlgorithm": "krichmarCustom", 
+            "fitnessFunc": "removed", 
+            "fitnessFuncArgs": {
+                "maxFitness": 1000, 
+                "pops": {
+                    "CT6": {
+                        "min": 0.4, 
+                        "target": 10, 
+                        "width": 5
+                    }, 
+                    "IT2": {
+                        "min": 0.4, 
+                        "target": 10, 
+                        "width": 5
+                    }, 
+                    "IT4": {
+                        "min": 0.4, 
+                        "target": 10, 
+                        "width": 5
+                    }, 
+                    "IT5A": {
+                        "min": 0.4, 
+                        "target": 10, 
+                        "width": 5
+                    }, 
+                    "IT5B": {
+                        "min": 0.4, 
+                        "target": 10, 
+                        "width": 5
+                    }, 
+                    "IT6": {
+                        "min": 0.4, 
+                        "target": 10, 
+                        "width": 5
+                    }, 
+                    "PT5B": {
+                        "min": 0.4, 
+                        "target": 10, 
+                        "width": 5
+                    }, 
+                    "PV2": {
+                        "min": 0.4, 
+                        "target": 15, 
+                        "width": 10
+                    }, 
+                    "PV5A": {
+                        "min": 0.4, 
+                        "target": 15, 
+                        "width": 10
+                    }, 
+                    "PV5B": {
+                        "min": 0.4, 
+                        "target": 15, 
+                        "width": 10
+                    }, 
+                    "PV6": {
+                        "min": 0.4, 
+                        "target": 15, 
+                        "width": 10
+                    }, 
+                    "SOM2": {
+                        "min": 0.4, 
+                        "target": 15, 
+                        "width": 10
+                    }, 
+                    "SOM5A": {
+                        "min": 0.4, 
+                        "target": 15, 
+                        "width": 10
+                    }, 
+                    "SOM5B": {
+                        "min": 0.4, 
+                        "target": 15, 
+                        "width": 10
+                    }, 
+                    "SOM6": {
+                        "min": 0.4, 
+                        "target": 15, 
+                        "width": 10
+                    }
+                }
+            }, 
+            "max_generations": 200, 
+            "maximize": false, 
+            "maxiter_wait": 20, 
+            "mutation_rate": 0.4, 
+            "num_elites": 5, 
+            "pop_size": 50, 
+            "scancelUser": "salvadord", 
+            "time_sleep": 60
+        }, 
+        "initCfg": {
+            "('pulse', 'end')": 1100.0, 
+            "('pulse', 'noise')": 0.8, 
+            "('pulse', 'pop')": "None", 
+            "('pulse', 'start')": 1000.0, 
+            "IEGain": 1.0, 
+            "IEdisynapticBias": null, 
+            "IIweights": [
+                1.0, 
+                1.0, 
+                1.0
+            ], 
+            "IPTGain": 1.0, 
+            "axonNa": 7, 
+            "axonRa": 0.005, 
+            "dendNa": 0.3, 
+            "duration": 1500.0, 
+            "epas": 0.9, 
+            "gpas": 0.5, 
+            "ihGbarBasal": 1.0, 
+            "ihLkcBasal": 1.0, 
+            "ihLkcBelowSoma": 0.01, 
+            "ihModel": "migliore", 
+            "ihSlope": 28, 
+            "ihlkc": 0.2, 
+            "ihlke": -86, 
+            "saveCellConns": false, 
+            "saveCellSecs": false, 
+            "somaNa": 5.0, 
+            "weightNormThreshold": 4.0
+        }, 
+        "method": "evol", 
+        "netParamsFile": "netParams.py", 
+        "params": [
+            {
+                "label": [
+                    "ratesLong", 
+                    "TPO", 
+                    1
+                ], 
+                "values": [
+                    2, 
+                    5
+                ]
+            }, 
+            {
+                "label": [
+                    "ratesLong", 
+                    "TVL", 
+                    1
+                ], 
+                "values": [
+                    2, 
+                    5
+                ]
+            }, 
+            {
+                "label": [
+                    "ratesLong", 
+                    "S1", 
+                    1
+                ], 
+                "values": [
+                    2, 
+                    5
+                ]
+            }, 
+            {
+                "label": [
+                    "ratesLong", 
+                    "S2", 
+                    1
+                ], 
+                "values": [
+                    2, 
+                    5
+                ]
+            }, 
+            {
+                "label": [
+                    "ratesLong", 
+                    "M2", 
+                    1
+                ], 
+                "values": [
+                    2, 
+                    5
+                ]
+            }, 
+            {
+                "label": [
+                    "ratesLong", 
+                    "OC", 
+                    1
+                ], 
+                "values": [
+                    2, 
+                    5
+                ]
+            }, 
+            {
+                "label": "EEGain", 
+                "values": [
+                    0.5, 
+                    1.0
+                ]
+            }, 
+            {
+                "label": [
+                    "IEweights", 
+                    0
+                ], 
+                "values": [
+                    0.8, 
+                    1.2
+                ]
+            }, 
+            {
+                "label": [
+                    "IEweights", 
+                    1
+                ], 
+                "values": [
+                    0.8, 
+                    1.2
+                ]
+            }, 
+            {
+                "label": [
+                    "IEweights", 
+                    2
+                ], 
+                "values": [
+                    0.8, 
+                    1.2
+                ]
+            }, 
+            {
+                "label": "IIGain", 
+                "values": [
+                    0.8, 
+                    1.2
+                ]
+            }, 
+            {
+                "label": "ihGbar", 
+                "values": [
+                    0.1, 
+                    0.3
+                ]
+            }
+        ], 
+        "runCfg": {
+            "allocation": "default", 
+            "coresPerNode": 8, 
+            "email": "salvadordura@gmail.com", 
+            "folder": "/home/salvadord/m1/sim/", 
+            "mpiCommand": "mpirun", 
+            "nodes": 16, 
+            "script": "init.py", 
+            "skipCustom": "_raster.png", 
+            "type": "hpc_slurm", 
+            "walltime": "48:00:00"
+        }, 
+        "saveFolder": "../data/v53_batch24", 
+        "seed": null
+    }
+}
