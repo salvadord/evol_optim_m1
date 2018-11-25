@@ -16,15 +16,16 @@ Google Cloud supercomputers.
 
 * Fitness error
 
-[fitness_evol](https://github.com/salvadord/evol_optim_m1/blob/master/fitness_evol.png)
+![fitness_evol](https://github.com/salvadord/evol_optim_m1/blob/master/fitness_evol.png)
 
 
 * Example of poor model solution from initial generation:
 
 Generation 1  Candidate 24, fitness error = 401.8
 
+
 | Population 	| Rate (Hz) 	| Fitness error |
-| --------------------------------------------- |
+| ----------|---------------|------------------ |
 | CT6 		| 0.6	 		| 7					| 
 | PV2 		| 0.0 			| 1000				|
 | PV6 		| 0.0 			| 1000 				|
