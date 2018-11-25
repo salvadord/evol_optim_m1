@@ -43,14 +43,27 @@ Generation 1  Candidate 24, fitness error = 401.8
 | SOM6 		| 10.0 			| 2					|
 
 
-* Best model solution 
+* Best model solution:
 
 Generation 76  Candidate 16, fitness error = 17.0
 
-Population 	| Rate (Hz) 	| Fitness error 
-----------------------------------------------
-
-CT6 rate=4.0 fit=3; PV2 rate=7.1 fit=2; PV6 rate=0.4 fit=4; SOM5A rate=22.4 fit=2; IT5A rate=26.8 fit=29; IT5B rate=5.5 fit=2; PT5B rate=36.4 fit=194; PV5A rate=22.0 fit=2; PV5B rate=24.3 fit=3; IT6 rate=16.5 fit=4; IT4 rate=7.9 fit=2; SOM2 rate=26.6 fit=3; IT2 rate=8.6 fit=1; SOM5B rate=8.0 fit=2; SOM6 rate=19.0 fit=1
+| Population 	| Rate (Hz) 	| Fitness error |
+| ----------|---------------|------------------ |
+| CT6 | 4.0 | 3
+| PV2 | 7.1 | 2 |
+| PV6 | 0.4 | 4 |
+| SOM5A | 22.4 | 2 |
+| IT5A | 26.8 | 29 |
+| IT5B | 5.5 | 2 |
+| PT5B | 36.4 | 194 |
+| PV5A | 22.0 | 2 |
+| PV5B | 24.3 | 3 |
+| IT6 | 16.5 | 4 |
+| IT4 | 7.9 | 2 |
+| SOM2 | 26.6 | 3 |
+| IT2 | 8.6 | 1 |
+| SOM5B | 8.0 | 2 |
+| SOM6 | 19.0 | 1 |
 
 ## Description of files
 
