@@ -69,18 +69,19 @@ Generation 76  Candidate 16, fitness error = 17.0
 
 * v53_batch24_netParams.py - High-level network parameters (M1 network model specifications)
 
+* v53_batch24_batch.json - Batch simulation configuration (evolutionary algorithm parameters, fitness function, etc.)
+
 * v53_batch24_stats.cvs	- Evolutionary optimization fitness error results across generations
 
 * v53_batch24_stats_indiv.cvs - Evolutionary optimization individuals (solutions) fitness and parameter values
 
 * fitness_evol.png - Fitness error evolution graph 
 
-* v53_batch24_batch.json - Batch simulation configuration (evolutionary algorithm parameters, fitness function, etc.)
+* gen_76_cand_16_cfg.json - Best solution simulation configuration parameters (simConfig object)
 
 * gen_76_cand_16.json - Best solution output data
 
 * gen_76_cand_16.run - Best solution simulation output log
 
-* gen_76_cand_16_cfg.json - Best solution simulation configuration parameters (simConfig object)
 
 
